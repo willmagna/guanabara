@@ -1,0 +1,115 @@
+Operadores
+
+1º aritméticos
+2º relacionais
+3º lógicos
+4º ternário
+
+
+Precedência
+    aritméticos
+        ()
+        **
+        * / %
+        + - 
+    
+    lógicos
+        !
+        &&
+        ||
+
+
+Precedência
+    aritméticos () ** / ...
+    relacionais > <= >= 
+    lógicos ! && ||
+
+
+ternário
+    ? :
+
+    teste ? true : false
+
+    variavel = teste ? true : false
+
+
+
+Introduction to DOM - JavaScript Course #09
+
+O que é DOM (Document Object Model)
+    Modelo de objetos para documentos.
+    Conjunto de objetos dentro do seu navegador que dará acesso aos componentes internos do seu website.
+    DOM não funciona dentro do nodejs.
+    DOM esta presente quando estou rodando JavaScript dentro do navegador.
+    DOM é um facilitador que existe dentro do seu navegador, dentro do html5, para dar acesso aos elementos diretamente pro JavaScript.
+    Sem o DOM teriamos muita dificuldade para acessar os elementos da nossa página.
+
+Árvore DOM
+    Window
+        location 
+        document
+            html
+                head
+                    meta
+                    title
+                body
+                    h1
+                    p
+                        strong
+                    div
+                footer 
+        history
+
+Navegar nos elementos no DOM 
+    por Marca (Tag)
+    por ID
+    por Nome
+    por Classe
+    por Seletor (novidade: faz a seleção através de elementos CSS)
+
+
+Aula 10 eventos DOM
+
+eventos: O que pode acontecer
+
+https://developer.mozilla.org/pt-BR/docs/Web/Events
+
+
+
+Array
+    Vetor é uma variavel com vários espaços.
+    O vetor é composto de elementos.
+    Um elemento de um vetor é um par que agrupa o espaço da memória, o valor colocado dentro dele e o indice.
+    Índice = chave.
+    Conteúdo.
+
+    Um array ou vetor ou variável composta, é uma variável que tem vários elementos. Cada elemento é composto por seu valor e por uma chave de identificação.
+    hETEROGENEO -> ACEITA VALORES DIFERENTES
+
+Funcões
+    Chamada
+    Parâmetro
+    Ação
+    Retorno
+
+    Funções são ações executadas assim que são chamadas ou em decorrência de algum evento.
+    Uma função pode receber parâmetros e retornar um resultado.
+    Uma função JavaScript só pode ter 1 retorno
+
+Multifuncional
+
+
+
+Próximos passos:
+    HTML 5 
+    CSS 3
+    Funções (arrow functions, iife, javascript funcional, talbacks)
+    Objetos (POO)
+    Modularização
+    RegEx
+    JSON (estrutura de objetos)
+    AJAX
+    NodeJS
+    
+
+Objetos 

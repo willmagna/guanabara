@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula11Ex010</title>
+</head>
+<body>
+
+    <h1>Pais</h1>
+    <laber>Qual seu pais: </label><input type="text" name="txtpais" id="txtpais">
+    <input type="button" value="Verificar" onclick="consulta()">
+    <div id="texto"></div>
+    <div id="res"></div>
+    <script>
+                
+        function consulta(){
+            var txtp = window.document.getElementById('txtpais')
+            var texto = window.document.getElementById('texto')
+            var res = window.document.getElementById('res')
+
+            texto.innerHTML = `<p>Você está vivendo em: <strong>${txtp.value}</strong></p>`
+
+            if(txtp.value == 'Brasil'){
+                res.innerHTML = `<p>Você é <strong>brasileiro</strong></p>`
+            }else{
+                res.innerHTML = `<p>Você é <strong>estrangeiro</strong></p>` 
+            }         
+
+        }
+
+    </script>
+</body>
+</html>
